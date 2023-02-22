@@ -1,0 +1,165 @@
+@import "../include/base";
+.personal{
+  padding-bottom: 100px;
+  .header{
+    height: 200px;
+    width: 100%;
+    background: url("../../images/topBk2.png") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .email{
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      font-size: 25px;
+      color: #ffffff;
+    }
+    .user-box{
+      width: 100%;
+      height: 62px;
+      padding: 0 20px;
+      display: flex;
+      .left{
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        img{
+          width: 60px;
+          height: 60px;
+        }
+      }
+      .right{
+        width: 75%;
+        height: 100%;
+        .top{
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          img{
+            margin-right: 10px;
+            width: 54px;
+            height: 24px;
+          }
+        }
+        .bottom{
+          width: 100%;
+          height: 50%;
+          display: flex;
+          align-items: center;
+          .id, .level{
+            height: 25px;
+            background: url("../../images/idBk.png") no-repeat;
+            background-size: 100% 100%;
+            line-height: 25px;
+            color: #ffffff;
+            text-align: center;
+          }
+          .id{
+            width: 84px;
+            background: url("../../images/idBk.png") no-repeat;
+            background-size: 100% 100%;
+          }
+          .level{
+            width: 108px;
+            background: url("../../images/levelBk.png") no-repeat;
+            background-size: 100% 100%;
+          }
+        }
+      }
+    }
+  }
+  .classify{
+    height: 165px;
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    .money-box{
+      position: absolute;
+      height: 125px;
+      width: 100%;
+      padding: 0 25px;
+      top: -50px;
+      .box{
+        width: 100%;
+        height: 100%;
+        background: url("../../images/itemsBk.png") no-repeat;
+        background-size: 100% 100%;
+        padding: 10px 20px;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 13px;
+        .row1{
+          margin-top: 5px;
+        }
+        .row2{
+          text-align: center;
+          margin-top: 10px;
+          font-size: 30px;
+        }
+        .row3{
+          margin-top: 10px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    .finance-box{
+      position: absolute;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      bottom: 20px;
+      div{
+        text-align: center;
+        font-size: 13px;
+        img{
+          width: 35px;
+        }
+      }
+    }
+  }
+  .menu{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+    .menu-list{
+      height: 50px;
+      display: flex;
+      padding-left: 10px;
+      .left{
+        width: 50px;
+        .flex();
+        img{
+          width: 27px;
+          height: 27px;
+        }
+      }
+      .right{
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 13px;
+        padding: 0 10px;
+        i{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .out{
+    height: 50px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    color: #ff3939;
+    margin-top: 10px;
+  }
+}

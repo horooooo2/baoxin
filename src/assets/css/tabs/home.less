@@ -1,0 +1,124 @@
+@import "../include/base";
+/*首页*/
+.home{
+  .header{
+    width: 100%;
+    background: #ffffff;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    div{
+      .flex();
+      img{
+        width: 80px;
+      }
+      i{
+        font-size: 28px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .banner{
+    height: 70px;
+    background: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    .login-box{
+      height: 100%;
+      width: 135px;
+      background: url("../../images/home/hallMa.png") no-repeat;
+      background-size: 100% 100%;
+      display: flex;
+      padding-top: 23px;
+      padding-left: 2px;
+      .login{
+        width: 60px;
+        height: 24px;
+        background: url("../../images/home/logon.png") no-repeat;
+        background-size: 100% 100%;
+        margin-right: 2px;
+      }
+      .register{
+        width: 60px;
+        height: 24px;
+        background: url("../../images/home/register.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+    .label-box{
+      display: flex;
+      .box{
+        text-align: center;
+        font-size: 12px;
+        margin-right: 3px;
+        img{
+          width: 55px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .game-box{
+    padding-top: 10px;
+    display: flex;
+    .left{
+      width: 28%;
+      .classify{
+        width: 88px;
+        height: 58px;
+        background: url("../../images/home/icon_bg04.png") no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #70b1b1;
+        padding-top: 3px;
+        font-size: 13px;
+        img{
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .active{
+        background: url("../../images/home/icon_bg001.png") no-repeat;
+        background-size: 100% 100%;
+        color: #ffffff;
+      }
+    }
+    .right{
+      width: 72%;
+      .classify{
+        width: 260px;
+        height: 128px;
+        background: url("../../images/home/2801.png") no-repeat;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        position: relative;
+        .label{
+          position: absolute;
+          left: 20px;
+          top: 10px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #2b3e3c;
+        }
+        .date{
+          position: absolute;
+          left: 20px;
+          bottom: 10px;
+          width: 77px;
+          height: 24px;
+          background: #ffffff;
+          border-radius: 20px;
+          text-align: center;
+          line-height: 24px;
+          font-size: 13px;
+          color: #49a5a5;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
