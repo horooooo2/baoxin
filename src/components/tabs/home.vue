@@ -20,8 +20,8 @@
     </div>
     <div class="banner">
       <div class="login-box">
-        <div class="login"></div>
-        <div class="register"></div>
+        <div class="login-btn"></div>
+        <div class="register-btn"></div>
       </div>
       <div class="label-box">
         <div class="box">
@@ -90,8 +90,8 @@ export default {
 <style lang="less">
 .my-swipe .van-swipe-item {
   color: #fff;
-  font-size: 20px;
-  line-height: 150px;
+  font-size: 0.02rem;
+  line-height: 1.5rem;
   text-align: center;
   background-color: #39a9ed;
 }

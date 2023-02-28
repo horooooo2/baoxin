@@ -5,8 +5,8 @@
       <div class="back"></div>
       <div class="box">
         <div>DT主账户：0.00</div>
-        <p style="margin-top: 20px">总余额（元）</p>
-        <p style="font-size: 30px;">0.00</p>
+        <p style="margin-top: 0.2rem">总余额（元）</p>
+        <p style="font-size: 0.3rem;">0.00</p>
         <div class="profit">
           昨日收益：<span>+0.00</span>
         </div>
@@ -28,7 +28,7 @@
       <p>3.本公司有权关闭余额宝功能或限制部分会员使用余额宝功能。</p>
       <p>4.余额宝最终解释权归本公司所有。</p>
     </div>
-    <van-popup v-model="profitPopup" :style="{ width: '80%',borderRadius: '10px' }">
+    <van-popup v-model="profitPopup" :style="{ width: '80%',borderRadius: '0.01rem' }">
       <div class="profitPopup">
         <div class="title">结算利率</div>
         <div class="table">

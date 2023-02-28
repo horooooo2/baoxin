@@ -13,7 +13,7 @@
         <div class="money">
           <div class="back-box">
             <p>收益金额</p>
-            <p style="margin-top: 15px;color: #fe4040;font-size: 20px">0</p>
+            <p style="margin-top: 0.15rem;color: #fe4040;font-size: 0.2rem">0</p>
           </div>
         </div>
       </div>

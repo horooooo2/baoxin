@@ -8,7 +8,7 @@
     <div class="info">
       <p><img src="@/assets/images/Head_0.png" alt=""></p>
       <p>horo发出的红包</p>
-      <p style="font-size: 40px">0</p>
+      <p style="font-size: 0.4rem">0</p>
       <div class="row">
         <div><span>0</span><br><span>发出红包</span></div>
         <div><span>0</span><br><span>领取人数</span></div>

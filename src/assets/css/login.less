@@ -1,72 +1,68 @@
 @import "./include/base";
 .login{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  .position();
   background: #fafafa;
   .header{
-    height: 60px;
+    height: 0.6rem;
     width: 100%;
     text-align: center;
-    line-height: 60px;
+    line-height: 0.6rem;
     position: relative;
     color: #000000;
-    font-size: 18px;
+    font-size: 0.18rem;
     background: #ffffff;
     i{
       position: absolute;
-      left: 20px;
-      top: 20px;
-      font-size: 20px;
+      left: 0.2rem;
+      top: 0.2rem;
+      font-size: 0.2rem;
     }
     .server{
-      width: 28px;
+      width: 0.28rem;
       position: absolute;
-      right: 20px;
-      top: 13px;
+      right: 0.2rem;
+      top: 0.13rem;
     }
   }
   .logo{
-    padding: 25px 0;
+    padding: 0.25rem 0;
     text-align: center;
     img{
-      width: 80px;
-      height: 80px;
+      width: 0.8rem;
+      height: 0.8rem;
     }
   }
   .logo-r{
-    padding: 25px 0;
+    padding: 0.25rem 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     img{
-      width: 80px;
-      height: 80px;
-      margin-right: 10px;
+      width: 0.8rem;
+      height: 0.8rem;
+      margin-right: 0.1rem;
     }
   }
   .input-box, .input-box-r{
-    padding: 0 20px;
+    padding: 0 0.2rem;
     .input{
       position: relative;
-      margin-bottom: 10px;
+      margin-bottom: 0.1rem;
       input{
-        padding-left: 55px;
-        height: 45px;
+        padding-left: 0.55rem;
+        height: 0.45rem;
         color: #656565;
         border: none;
         background: none;
-        border-bottom: 1px solid #e9e9e9;
+        border-bottom: 0.01rem solid #e9e9e9;
         width: 100%;
-        font-size: 13px;
+
       }
       .label{
         position: absolute;
-        width: 42px;
-        height: 45px;
+        width: 0.42rem;
+        height: 0.45rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -76,10 +72,10 @@
   .input-box-r{
     .input{
       input{
-        padding-left: 100px!important;
+        padding-left: 1rem!important;
       }
       .label{
-        width: 95px;
+        width: 0.95rem;
         justify-content: space-between;
         span:nth-child(1){
           color: red;
@@ -90,28 +86,28 @@
   .help{
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 0.2rem;
     span{
       color: #2d2d2d;
-      font-size: 13px;
+
     }
     .noPass{
       text-decoration:underline;
     }
   }
   .button-box{
-    margin-top: 50px;
-    padding: 0 20px;
+    margin-top: 0.5rem;
+    padding: 0 0.2rem;
     button{
       width: 100%;
       background: linear-gradient(to top, #fc8e33, #ffd8ab);;
-      height: 50px;
-      border-radius: 50px;
+      height: 0.5rem;
+      border-radius: 0.5rem;
       border: none;
       color: #ffffff;
     }
     .register-btn{
-      margin-top: 10px;
+      margin-top: 0.1rem;
       button{
         background: url("../images/btn_logon.png") no-repeat;
         background-size: 100% 100%;
@@ -119,22 +115,23 @@
     }
   }
   .tip{
-    margin-top: 10px;
+    margin-top: 0.1rem;
     text-align: center;
-    font-size: 13px;
+
     span{
       color: #fca057;
     }
   }
   .tips{
-    margin-top: 10px;
-    padding-left: 20px;
+    margin-top: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
     p{
       color: #858585;
-      margin-top: 10px;
-      font-size: 12px;
+      margin-top: 0.1rem;
+      font-size: 0.12rem;
       span{
-        margin-left: 5px;
+        margin-left: 0.05rem;
         color: #f44336;
       }
     }

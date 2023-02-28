@@ -5,7 +5,7 @@
       <div class="back"></div>
       <div class="box">
         <div>总余额</div>
-        <p style="font-size: 30px;">0.00</p>
+        <p style="font-size: 0.3rem;">0.00</p>
         <div class="row">
           <span>日化利率</span>
           <span>昨日收益（元）</span>

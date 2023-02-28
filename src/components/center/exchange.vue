@@ -6,7 +6,7 @@
       <div class="row"><span>余额宝</span><span>0.00</span></div>
     </div>
     <div class="money-type">
-      <div class="row"><span>免钱包转入</span><span><van-switch v-model="inChecked" size="14px" active-color="#fc913a" inactive-color="#dcdee0"  /></span></div>
+      <div class="row"><span>免钱包转入</span><span><van-switch v-model="inChecked" size="0.14rem" active-color="#fc913a" inactive-color="#dcdee0"  /></span></div>
       <div class="type-box"><span>主账户</span><span>0</span></div>
       <div class="type-box"><span>KY</span><span>0</span></div>
       <div class="type-box"><span>AG</span><span>0</span></div>

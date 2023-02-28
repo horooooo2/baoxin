@@ -8,7 +8,7 @@
       <div class="button">
         <button @click="tabIndex = 0" :class="{'active':tabIndex == 0}">今天</button>
         <button @click="tabIndex = 1" :class="{'active':tabIndex == 1}">近7天</button>
-        <button style="border-right:  1px solid #f5f5f5;" @click="tabIndex = 2" :class="{'active':tabIndex == 2}">近15天</button>
+        <button style="border-right:  0.01rem solid #f5f5f5;" @click="tabIndex = 2" :class="{'active':tabIndex == 2}">近15天</button>
         <button @click="tabIndex = 3" :class="{'active':tabIndex == 3}">近30天</button>
       </div>
     </div>

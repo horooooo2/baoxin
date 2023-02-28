@@ -25,7 +25,7 @@
         </div>
       </div>
       <div class="finance-box">
-        <div><img src="@/assets/images/icon_geren_005.png" alt=""><br>充值</div>
+        <div @click="$root.common.toPath('/recharge')"><img src="@/assets/images/icon_geren_005.png" alt=""><br>充值</div>
         <div @click="$root.common.toPath('/center/review')"><img src="@/assets/images/icon_geren_006.png" alt=""><br>提现</div>
         <div @click="$root.common.toPath('/yueBao/yueBao')"><img src="@/assets/images/icon_geren_019.png" alt=""><br>余额宝</div>
       </div>
@@ -58,11 +58,12 @@ export default {
         {img:require('@/assets/images/icon_geren_009.png'),name:'投注记录',url:'/center/bettingRecord'},
         {img:require('@/assets/images/icon_geren_010.png'),name:'积分记录',url:'/center/integralRecord'},
         {img:require('@/assets/images/icon_geren_011.png'),name:'会员返水',url:'/center/userBackwater'},
-        {img:require('@/assets/images/icon_geren_012.png'),name:'红包和奖金'},
-        {img:require('@/assets/images/icon_geren_014.png'),name:'推广赚钱'},
-        {img:require('@/assets/images/icon_geren_017.png'),name:'客服'},
-        {img:require('@/assets/images/icon_geren_015.png'),name:'设置'},
-        {img:require('@/assets/images/icon_geren_018.png'),name:'关于'},
+        {img:require('@/assets/images/icon_geren_012.png'),name:'红包和奖金',url:'/center/moneyAward'},
+        {img:require('@/assets/images/icon_geren_013.png'),name:'代理注册',url:'/login/registerAge'},
+        {img:require('@/assets/images/icon_geren_014.png'),name:'推广赚钱',url:'/center/popularize'},
+        {img:require('@/assets/images/icon_geren_017.png'),name:'客服',url:'/center/server'},
+        {img:require('@/assets/images/icon_geren_015.png'),name:'设置',url:'/set/setList'},
+        {img:require('@/assets/images/icon_geren_018.png'),name:'关于',url:'/center/about'},
       ]
     }
   },

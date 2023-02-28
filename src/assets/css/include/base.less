@@ -1,44 +1,99 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
   box-sizing: border-box;
+  font-size: 0.13rem;
 }
-li{
+
+html {
+  font-size: calc(100vw /3.75);
+}
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: 110px;
+  }
+}
+body {
+  font-family: PingFangSC-Regular, Microsoft Yahei, sans-serif;
+  color: #252525;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto !important;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden
+}
+
+li {
   list-style: none;
 }
-body{
-  background: #f2f2f2;
-  overflow: auto;
-}
-a{
+
+a {
   color: #000000;
 }
-i{
+
+i {
   font-style: normal;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.flex{
+
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.public-header{
-  height: 60px;
+.position{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: auto;
+  padding-bottom: 1rem;
+  background: #f3f3f3;
+}
+.public-header {
+  height: 0.6rem;
   width: 100%;
   background: url("../../images/appBarBk.png") no-repeat;
   background-size: 100% 100%;
   text-align: center;
-  line-height: 60px;
+  line-height: 0.6rem;
   position: relative;
   color: #ffffff;
-  font-size: 18px;
-  i{
+  font-size: 0.18rem;
+
+  i {
     position: absolute;
-    left: 20px;
-    top: 20px;
-    font-size: 20px;
+    left: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.2rem;
+  }
+}
+
+.bank-button {
+  margin-top: 0.2rem;
+  padding: 0 0.25rem;
+
+  button {
+    width: 100%;
+    height: 0.5rem;
+    background: linear-gradient(to bottom, #f6d6af, #f3862d);
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffffff;
   }
 }

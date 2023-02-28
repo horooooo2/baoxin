@@ -1,26 +1,21 @@
 <template>
   <div class="recharge">
-    <div class="header"></div>
+    <div class="header"><van-icon name="arrow-left" @click="$router.back()" /></div>
     <div class="content">
-      <div class="box-list" @click="$root.common.toPath('/rechargeBank')">
+      <div class="box-list" @click="$root.common.toPath('/center/serverDetail')">
         <div class="img"></div>
-        <div class="name">银行卡入款</div>
+        <div class="name">在线客服</div>
         <div><van-icon name="arrow" size="0.2rem" color="#9b9b9b" /></div>
       </div>
     </div>
-    <footer_nav></footer_nav>
   </div>
 </template>
 
 <script>
-import '@/assets/css/tabs/recharge.less'
-import footer_nav from "@/components/include/footer_nav";
+import '@/assets/css/center/server.less'
 
 export default {
-name: "recharge",
-  components:{
-    footer_nav
-  },
+  name: "recharge",
   data(){
     return{
 
